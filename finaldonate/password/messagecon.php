@@ -2,8 +2,8 @@
 require_once('AfricasTalkingGateway.php');
 
 // Specify your authentication credentials
-$username   = "lilianKirito";
-$apikey     = "29748e398b5b4f31537215ae95f602d98c5ae89184a941e5c756fe3b610d23b3";
+$username   = "";
+$apikey     = "";
 
 
 $txt=$_POST['message'];
