@@ -27,14 +27,14 @@ if (isset($_POST['sendmsg'])) {
 }
 
 // Specify your authentication credentials
-$username   = "lilianKirito";
-$apikey     = "29748e398b5b4f31537215ae95f602d98c5ae89184a941e5c756fe3b610d23b3";
+$username   = "";
+$apikey     = "";
 
 
 // Create a new instance of our awesome gateway class
 $gateway    = new AfricasTalkingGateway($username, $apikey);
 
-$recipients = "+254724435035,+254705895190";
+$recipients = "";
 try 
 { 
   // Thats it, hit send and we'll take care of the rest. 
